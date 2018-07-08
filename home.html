@@ -5,38 +5,57 @@
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+     <link rel="stylesheet" type="text/css" href="css/photographycss.css">
 </head>
 <body>
-	<div class="container-fluid">
-		<div class="row mt-4">
-			<div class="col-8">
-				<a href="home.html"><img src="CMPLogo2.png"></a>
-			</div>
-			<div class="col-4">
-				<ul class="nav nav-pills">
-					<li class="nav-item"><a class="nav-link active" href="home.html">Home</a></li>
-					<li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-					<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-					<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-				</ul>
-			</div>
-		</div>
-		<div class="row">
-			<div class= "col">
+		
+<ul class="nav nav-tabs">
+  <li>
+  	 <a href="home.html"> <img class="logo" src="CMPLogo2.png"></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="home.html">Home</a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Portfolio</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="contact.html">Contact</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="about.html">About</a>
+  </li>
+</ul>
+
+
+
+	<div class="container">
+		<div class="row mt-5">
+			<div class= "col-3">
 				<p>Side Column</p>
 			</div>
-			<div class="col">
+			<div class="col-6">
 			 	<p>Middle Column</p>
 			</div>
-			<div class="col">
+			<div class="col-3">
 			 	<p>Side Column</p>
 			</div>
 		</div>
-		<div class="row">
-		    <div class="footer">
-		  	   <p>&copy; 2018 Capturing Moments Photography </p>
-			</div>
-		</div>
 	</div>
+		<footer class="footer">
+			<div class="container"> 
+				<p>&copy; 2018 Capturing Moments Photography</p>
+			</div>
+		</footer>
+		  	   
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
