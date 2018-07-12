@@ -5,48 +5,53 @@
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-     <link rel="stylesheet" type="text/css" href="css/photographycss.css">
+    <link rel="stylesheet" type="text/css" href="css/photographycss.css">
+     <link rel="stylesheet" type="text/css" href="css/contact.css">
 </head>
 <body>
 		
 <ul class="nav nav-tabs">
   <li>
-     <a href="home.html"> <img  class="logo" src="CMPLogo2.png"></a>
+  	 <a href="home.html"> <img class="logo" src="CMPLogo2.png"></a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="home.html">Home</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link active" href="contact.html">Contact</a>
+    <a class="nav-link active" href="home.html">Home</a>
   </li>
   <li class="nav-item dropdown">
-				<a class="nav-link" id="navbarDropdown1" data-target="#" href="http://example.com" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown ▾</a>
+				<a class="nav-link" id="navbarDropdown1" data-target="portfolio.html" href="http://example.com" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio ▾</a>
 				<ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
 					<li><a class="dropdown-item" href="#">Action</a></li>
 					<li><a class="dropdown-item" href="#">Another action</a></li>
 					<li><a class="dropdown-item" href="#">Something else here</a></li>
 				</ul>
-  <li class="nav-item">
-    <a class="nav-link" href="about.html">About</a>
-  </li>
-</ul>
+			<li class="nav-item">
+		    <a class="nav-link" href="contact.html">Contact</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" href="about.html">About</a>
+		  </li>
+		</ul>
 
+		<div class="contact-title">
+			<h1>Contact Us</h1>
+		</div>	
 
+		<div class="contact-form">
+			<form id="contact-form" method="post" action="">
+			<input type="text" name="name" class="form-control" placeholder="Your Name" required>
+			<br>
+			<input type="email" name="email" class="form-control" placeholder="Your Email" required>
+			<br>
 
-	<div class="container">
-		<div class="row mt-5">
-			<div class= "col-3">
-				<p>Side Column</p>
-			</div>
-			<div class="col-6">
-			 	<p>Middle Column</p>
-			</div>
-			<div class="col-3">
-			 	<p>Side Column</p>
-			</div>
+			<textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea> <br>
+			<input type="submit" class="form-control" submit value="SEND MESSAGE">
+				
+
+			</form>
 		</div>
-	</div>
-		<footer class="footer">
+
+
+		<footer class="footer navbar-fixed-bottom">
 			<div class="container"> 
 				<p>&copy; 2018 Capturing Moments Photography</p>
 			</div>
